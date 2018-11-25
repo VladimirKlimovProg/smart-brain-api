@@ -12,10 +12,8 @@ const image = require('./controllers/image');
 const db = knex({
   client: 'pg',
   connection: {
-    host : '***REMOVED***ql-regular-38552',
-    user : ***REMOVED***,
-    password : ***REMOVED***,
-    database : ***REMOVED***
+  	host: process.env.DATABASE_URL,
+  	ssl: true,
   }
 });
 
