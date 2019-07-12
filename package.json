@@ -1,25 +1,25 @@
 {
-  "name": "smart-brain-api",
+  "name": "node",
   "version": "1.0.0",
-  "description": "",
   "main": "script.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "nodemon -L server.js"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
-    "body-parser": "^1.19.0",
-    "clarifai": "^2.9.0",
-    "cors": "^2.8.5",
-    "express": "^4.17.1",
-    "knex": "^0.18.2",
-    "nodemon": "^1.19.1",
-    "pg": "^7.11.0"
+    "body-parser": "^1.18.2",
+    "clarifai": "^2.5.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "knex": "^0.14.2",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.0"
   },
   "devDependencies": {
-    "event-stream": ">=4.0.0",
-    "axios": ">=0.18.1"
-  }
+    "nodemon": "^1.19.1"
+  },
+  "description": ""
 }
